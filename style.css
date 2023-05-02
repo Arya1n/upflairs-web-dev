@@ -1,0 +1,57 @@
+:root{
+    --primaryColor: #569DAA;
+    --backgroundColor: #B9EDDD;
+}
+
+.heading{
+    font-weight: 600;
+    font-size: 70px;
+    /* font-size: xx-large; */
+    
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    text-align: center;
+    padding-top: 100px;
+    margin: 0;
+}
+
+
+.h3{
+  text-align: center;
+  font-size: 25px;
+  margin: 0;
+}    
+.top{
+    color: var(--primaryColor);
+    background-color: var(--backgroundColor);
+    height: 500px;
+}
+div{
+    display: block;
+    position: relative;
+    padding: 0;
+    
+}
+
+.heading-group{
+    padding: 30px;
+}
+
+.clouds{
+    width: 1500px;
+    opacity: 0.6;
+    margin-top: 1px;
+}
+
+.single-cloud{
+    width: 100px;
+    position: absolute;
+    top: 33%;
+    left: 12%;
+}
+
+.single-cloud2{
+    width: 100px;
+    position: absolute;
+    top: 19%;
+    right: 25%;
+}
