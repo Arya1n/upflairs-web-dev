@@ -3,35 +3,6 @@ body{
     text-align: center;
     color: white;
 }
-
-.red{
-    background-color: red;
-}
-.green{
-    background-color: green;
-}
-.blue{
-    background-color: blue;
-}
-.pink{
-    background-color:palevioletred;
-}
-.purple{
-    background-color: purple;
-}
-.yellow{
-    background-color: yellow;
-}
-.brown{
-    background-color: brown;
-}
-.black{
-    background-color: black;
-}
-.cyan{
-    background-color: cyan;
-}
-
 .box{
     height: 100px;
     width: 100px;
@@ -48,3 +19,46 @@ body{
     column-gap: 30px;
     row-gap: 10px;
 }
+
+.red{
+    background-color: red;
+    order: 9;
+}
+.green{
+    background-color: green;
+    order: 8;
+}
+.blue{
+    flex-grow: 3;
+    background-color: blue;
+    order: 7;
+    height: 280px;
+}
+.pink{
+    background-color:palevioletred;
+    order: 6;
+}
+.purple{
+    background-color: purple;
+    order: 5;
+}
+.yellow{
+    background-color: yellow;
+    order: 4;
+    flex-grow: 2;
+}
+.brown{
+    background-color: brown;
+    order: 3;
+}
+.black{
+    background-color: black;
+    order: 2;
+}
+.cyan{
+    background-color: cyan;
+    order: 1;
+}
+
+
+
